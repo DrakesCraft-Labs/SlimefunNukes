@@ -3,10 +3,10 @@ package com.aurgiyalgo.SlimefunNukes.items;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup;
+import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
+import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
+import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
@@ -18,10 +18,10 @@ import com.aurgiyalgo.SlimefunNukes.SFNukesUtils;
 import com.aurgiyalgo.SlimefunNukes.SlimefunNukes;
 import com.aurgiyalgo.SlimefunNukes.SlimefunNukes.Configuration;
 
-import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Radioactive;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Radioactivity;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockUseHandler;
+import com.github.drakescraft_labs.slimefun4.api.events.PlayerRightClickEvent;
+import com.github.drakescraft_labs.slimefun4.core.attributes.Radioactive;
+import com.github.drakescraft_labs.slimefun4.core.attributes.Radioactivity;
+import com.github.drakescraft_labs.slimefun4.core.handlers.BlockUseHandler;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
 public class Nuke extends SlimefunItem implements Radioactive {

@@ -6,3 +6,7 @@
 mvn clean package.bat
 /.idea
 SlimefunNukes.iml
+
+target/
+build/
+.gradle/

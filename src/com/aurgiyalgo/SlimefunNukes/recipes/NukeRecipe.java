@@ -1,6 +1,6 @@
 package com.aurgiyalgo.SlimefunNukes.recipes;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 

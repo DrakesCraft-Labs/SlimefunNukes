@@ -1,79 +1,42 @@
-# SlimefunNukes(自定义粘液核弹) ☢
+<p align="center">
+  <img src="docs/banner.svg" width="100%" alt="SLIMEFUNNUKES Animated Banner" />
+</p>
 
-#### 想在Slimefun中添加点艺术色彩？这个插件就是给你的
+# SlimefunNukes
 
-SlimefunNukes 允许你使用Slimefun上现有的物品制作、放置和引爆各种武器和爆炸物。
+Addon de **Slimefun 4** que añade una línea avanzada de armamento pesado, ojivas tácticas y explosivos nucleares construidos mediante componentes tecnológicos y materiales radiactivos de Slimefun. Portado, limpiado de chino y adaptado por **DrakesCraft Labs** para Paper/Purpur 1.21.11 en Java 21.
 
-<details open="open">
-  <summary>目录</summary>
-  <ol>
-    <li>
-      <a href="#how-to-use">如何使用</a>
-      <ul>
-        <li><a href="#for-players">致玩家</a></li>
-        <li><a href="#for-server-owners">致服主</a></li>
-      </ul>
-    </li>
-    <li><a href="#building">下载</a></li>
-    <li><a href="#contributing">贡献</a></li>
-    <li><a href="#license">许可证</a></li>
-    <li><a href="#support">支持</a></li>
-  </ol>
-</details>
+---
 
-<div id="how-to-use"></div>
+## 🎯 Objetivo
 
-## 如何使用 🎮 
+Integrar armamento táctico de alto calibre y demolición masiva con salvaguardas de seguridad territorial, pensado para eventos bélicos, arenas de guerra o zonas designadas sin arriesgar construcciones en zonas protegidas.
 
-<div id="for-players"></div>
+---
 
-### 致玩家
+## ⚡ Características Principales
 
-* [Guide for players](https://github.com/aurgiyalgo/SlimefunNukes/wiki/Guide-for-players)
+- **Bombas y Ojivas Nucleares**:
+  - Distintos tipos de explosivos con radios de detonación, ondas de choque y efectos de radiación residual.
+- **Componentes Tecnológicos**:
+  - Circuitos de detonación remota, carcasas de uranio enriquecido y detonadores programables.
+- **Integración con Protección**:
+  - Respeto total a regiones de ProtectionStones y WorldGuard (la detonación no destruye bloques dentro de claims protegidos si el griefing está deshabilitado).
+- **Traducción Depurada**:
+  - Textos, nombres y advertencias completamente en español.
 
-<div id="for-server-owners"></div>
+---
 
-### 致服主
-_获取更多相关信息，详见 [Wiki](https://github.com/aurgiyalgo/SlimefunNukes/wiki)_
+## 🛠️ Entorno y Compatibilidad
 
-<div id="building"></div>
+- **Servidor**: Paper / Purpur 1.21.11
+- **Java**: 21
+- **Dependencias**:
+  - `Slimefun4-Drake`
 
-## 下载 🚀 
+---
 
-_构建条件:Java开发工具包11或更高版本和Maven_
+## 📜 Créditos y Origen
 
-1. 克隆存储库并访问目录
-```sh
-git clone https://github.com/aurgiyalgo/SlimefunNukes
-cd SlimefunNukes/
-```
-
-2. 用Maven构建项目
-
-```sh
-mvn package
-```
-
-<div id="contributing"></div>
-
-## 贡献 🎓 
-
-非常感谢大家的贡献，这不仅有助于项目，也有助于使用它的服务器。你可以这样做:
-
-1. Clone并fork该项目
-2. 创建分支 (`git checkout -b feature/YourNewFeature`)
-3. 提交你的更高 (`git commit -m "Added my new feature!"`)
-4. 推到分支上 (`git push origin feature/YourNewFeature`)
-5. 创建Pull Request
-
-<div id="license"></div>
-
-## 许可证 📜 
-
-该项目使用MIT许可. 查看 [`LICENSE`](https://github.com/aurgiyalgo/SlimefunNukes/blob/master/LICENSE) for more information.
-
-<div id="support"></div>
-
-## 支持 💡 
-
-你可以在此得到帮助 [Discord](https://discord.gg/NjtN58e).
+- **Autor original**: Comunidad Slimefun / `haiman233`
+- **Adaptación y Mantenimiento 1.21.11**: **DrakesCraft Labs**
